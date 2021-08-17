@@ -13,6 +13,7 @@ algorithm.  The circuit closes when for a configured duration:
 
 # Usage
 
+
 Have your manager use a `ratecloser.CloserFactory` and your circuits will be created of this type.
 
 ```go
