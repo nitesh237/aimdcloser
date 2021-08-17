@@ -8,6 +8,7 @@ It is a closer that increases how many requests it allows in an opened circuit a
 [Additive increase/multiplicative decrease](https://en.wikipedia.org/wiki/Additive_increase/multiplicative_decrease)
 algorithm.  The circuit closes when for a configured duration:
 
+
 * No requests have failed
 * No requests have been not allowed (additive increase is high enough for the rate) 
 
